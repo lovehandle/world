@@ -1,0 +1,19 @@
+{
+  "name": "world",
+  "version": "0.0.1",
+  "description": "world",
+  "main": "index.js",
+  "dependencies": {
+    "voxel": "0.3.1",
+    "voxel-engine": "~0.18.0",
+    "voxel-highlight": "0.0.9",
+    "voxel-player": "0.1.0",
+    "voxel-walk": "git://github.com/flyswatter/voxel-walk.git"
+  },
+  "scripts": {
+    "start": "beefy index.js:bundle.js --debug=false -- --fast"
+  },
+  "repository": "https://github.com:lovehandle/world",
+  "author": "RON VRON CROSLER",
+  "license": "BSD"
+}
